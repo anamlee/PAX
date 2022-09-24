@@ -29,9 +29,9 @@
 #profile.doggos .onglet input[type=radio]:not(:checked) ~ label{border: 1px solid var(--doggos);}
 
 
-#profile.birbs div#username:before {
-    color: var(--birbs);
-}
+#profile.birbs div#username:before {color: var(--birbs); content: "\f520";}
+#profile.doggos div#username:before {color: var(--doggos); content: "\f6d3";}
+#profile.fishies div#username:before {color: var(--fishies); content: "\e4f2";}
 
 /*onglet 2 (liens)*/
 
@@ -295,7 +295,6 @@ height: auto;
 }
 
 div#username:before {
-    content: "\f520";
     font-family: fontawesome;
     font-size: 90px;
     transform: scaleX(-1);
