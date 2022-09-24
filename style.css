@@ -299,6 +299,8 @@ div#username:before {
     font-size: 90px;
     transform: scaleX(-1);
     color: var(--pnj);
+    position: relative;
+    left: -20px;
 }
 
 #username .username span {
