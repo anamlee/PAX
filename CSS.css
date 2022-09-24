@@ -1,0 +1,7 @@
+
+/*adaptation couleurs*/
+#profile.birbs input[type=radio]:not(:checked) ~ label, #profile.birbs .contenu_onglet_2 .liens_lien a:after, #profile.birbs .contenu_onglet_2 .rela_lien a:after, #profile.birbs .profile_icon > div.field_id2, #profile.birbs .contenu_onglet_1 .historique_chrono a:after, #profile.birbs #quicklinks a:after, #profile.birbs #quicklinks a.profil_msg, #profile.birbs #quicklinks a.profile_topics{color: var(--birbs);}
+#profile.birbs .username span{-webkit-text-stroke: 0.4px var(--birbs);}
+#profile.birbs #character .player:before, #profile.birbs #character .profile_lastco div, #profile.birbs .card .field_id3:before, #profile.birbs .card .field_id4:before, #profile.birbs .card .field_id5:before, #profile.birbs .card .field_id6:before, #profile.birbs .card .field_id7:before{background-color: var(--birbs);}
+#profile.birbs .onglet input[type=radio]:checked ~ label{background-color: var(--birbs); border: 1px solid var(--birbs);}
+#profile.birbs .onglet input[type=radio]:not(:checked) ~ label{border: 1px solid var(--birbs);}
