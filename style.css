@@ -28,11 +28,6 @@
 #profile.doggos .onglet input[type=radio]:checked ~ label{background-color: var(--doggos); border: 1px solid var(--doggos);}
 #profile.doggos .onglet input[type=radio]:not(:checked) ~ label{border: 1px solid var(--doggos);}
 
-
-#profile.birbs div#username:before {color: var(--birbs); content: "\f520";}
-#profile.doggos div#username:before {color: var(--doggos); content: "\f6d3";}
-#profile.fishies div#username:before {color: var(--fishies); content: "\e4f2";}
-
 /*onglet 2 (liens)*/
 
 #profile .contenu_onglet_2 .citation > div, #profile .contenu_onglet_2 .liens > div, #profile .contenu_onglet_2 .rela > div{display: none;}
@@ -292,14 +287,6 @@ height: auto;
   white-space: nowrap;
   color: var(--pnj);
   -webkit-text-stroke: 0px var(--pnj);
-}
-
-div#username:before {
-    font-family: fontawesome;
-    font-size: 90px;
-    color: var(--pnj);
-    position: relative;
-    left: -20px;
 }
 
 #username .username span strong {
