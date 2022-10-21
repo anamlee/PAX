@@ -406,7 +406,7 @@ nav {
     content: "" !important;
 }
 
-/* General - Activity button
+/* General - New Activity button
 ========================================================================== */
 
 #newActivity_btn {
@@ -430,13 +430,9 @@ nav {
     padding-left: 2px;
 }
 
-/* General - Activity popup
-========================================================================== */
 
-.sidebar.active {
-	opacity: 1;
-	visibility: visible;
-}
+/* General - Sidebar template
+========================================================================== */
 
 .sidebar {
 	background-color: #FFF;
@@ -454,6 +450,11 @@ nav {
 	visibility: hidden;
 	width: calc(50% - 465px);
 	z-index: 999;
+}
+
+.sidebar.active {
+	opacity: 1;
+	visibility: visible;
 }
 
 /* General - Notifications popup 
@@ -630,7 +631,7 @@ transition: .2s all ease-in-out;
     display: none;
 }
 
-/* General - Activity popup
+/* General - New Activity content
 ========================================================================== */
 
 #newActivity .overlay {
@@ -678,6 +679,13 @@ transition: .2s all ease-in-out;
     padding: 15px;
 }
 
+#newActivity_content a img {
+    display: none;
+}
+
+#newActivity_content .linepost {
+    text-transform: lowercase;
+}
 
 #newActivity_content a.button2 {
     color: #000;
