@@ -960,6 +960,486 @@ dd.lastpost span.color-groups {
 	padding-right: 5px;
 }
 
+/* Subject View - General
+========================================================================== */
+
+.pagination {
+	float: none;
+}
+
+.pagination a:first-of-type {
+	display: none;
+}
+
+.pagination span a.pag-img:hover {
+	background-color: #fff!important;
+}
+
+.pagination span strong,
+.pagination span a:link,
+.pagination span a:visited,
+.pagination span a:active {
+	background-color: #fff;
+	border-radius: 5px;
+	color: #000;
+	height: 30px;
+	margin-right: 7px;
+	width: 28px;
+}
+
+h1.page-title {
+	align-items: center;
+	background-color: #fff;
+	border-radius: 35px;
+	display: flex;
+	font-size: 20px;
+	font-weight: 400;
+	height: 45px;
+  	margin-top: 15px;
+	padding: 11px;
+	text-transform: lowercase;
+}
+
+h1.page-title i {
+	color: #DF6883;
+	margin: 0 15px 0 10px;
+}
+
+.sub-header {
+	margin-top: 15px;
+	position: relative;
+}
+
+.sub-header::before {
+	background: linear-gradient(90.8deg,rgba(255,255,255,0.2) -94.25%,rgba(255,255,255,0.1) 100%);
+	border-radius: 15px 15px 0 0;
+	content: '';
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+
+.sub-header-path, 
+.sub-header-buttons {
+	margin: 10px;
+}
+
+.sub-header-path,
+.bottom-path {
+	background-color: #fff;
+	border-radius: 15px;
+	display: inline-block;
+	font-size: 0;
+	height: 30px;
+	line-height: 15px;
+	padding: 7px;
+	text-transform: lowercase;
+}
+
+.sub-header-path i,
+.bottom-path i {
+	bottom: 2px;
+	color: #DF6883;
+	display: inline;
+	font-size: 15px;
+	position: relative;
+}
+
+.sub-header-path a,
+.bottom-path a {
+	display: inline-block;
+	float: none;
+  	font-size: 1.3rem;
+	position: relative;
+	z-index: 2;
+}
+
+.sub-header-path a.nav:last-child,
+.bottom-path a.nav:last-child {
+	position: relative;
+	top: -3px;
+}
+
+.sub-header-path a.nav:not(:last-child),
+.bottom-path a.nav:not(:last-child) {
+	max-width: 50px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.bottom-path a + a {
+	margin-left: 6px; 
+}
+
+.bottom-path a + a:before {
+	content: "\f3d3";
+	display: inline-block;
+	font-family: "Ionicons";
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 1;
+	margin-right: 6px;
+	moz-osx-font-smoothing: grayscale;
+	speak: none;
+	text-rendering: auto;
+	text-transform: none;
+	vertical-align: -1px;
+	webkit-font-smoothing: antialiased;
+}
+
+.sub-header-buttons a.ion-locked.button1,
+.topic-actions-buttons a.ion-locked.button1 {
+	pointer-events: none;
+}
+
+.sub-header-buttons a.ion-reply.button1,
+.sub-header-buttons a.ion-locked.button1,
+.topic-actions-buttons a.ion-reply.button1,
+.topic-actions-buttons a.ion-locked.button1 {
+	background-color: #fff;
+	border-radius: 15px;
+	box-shadow: none;
+	color: #000;
+	display: inline-flex;
+	flex-direction: column;
+	font-weight: bold;
+	height: 30px;
+	justify-content: center;
+	text-transform: uppercase;
+}
+
+.sub-header-buttons a.ion-locked.button1,
+.topic-actions-buttons a.ion-locked.button1 {
+  	color: #fff;
+}
+
+.sub-header-buttons a.ion-reply.button1::before,
+.sub-header-buttons a.ion-locked.button1::before,
+.topic-actions-buttons a.ion-reply.button1::before, 
+.topic-actions-buttons a.ion-locked.button1::before {
+	display: none;
+}
+
+.post-container .panel {
+	border-radius: 15px;
+	margin: 15px;
+	padding: 15px;
+}
+
+.post-container .panel h2 {
+	border: 0px solid transparent !important;
+}
+
+fieldset.polls dl {
+	display: flex;
+}
+
+fieldset.polls dt, fieldset.polls dt label {
+	display: initial;
+	flex-grow: 1;
+}
+
+fieldset.polls .poll-bar-bar {
+	background-color: var(--doggos) !important;
+}
+
+fieldset.polls dd input {
+	background-color: var(--doggos);
+	border-radius: 15px !important;
+	box-shadow: none !important;
+	color: #000 !important;
+	font-family: var(--main-sans-serif) !important;
+	font-weight: 700 !important;
+	height: 30px;
+	line-height: 14px;
+	text-transform: uppercase;
+}
+
+.post-container {
+	background: linear-gradient(90deg,#E05D84 1.39%,#F9DB51 100%);
+	border-radius: 15px;
+	box-shadow: 0 4px 4px rgba(0 0 0 / 25%);
+}
+
+.post-container .row2, 
+.post-container .row1 {
+	background: linear-gradient(90deg,#E05D84 1.39%,#F9DB51 100%);
+	border: none;
+	box-shadow: none;
+	margin: 15px;
+}
+
+.postprofile {
+	background: linear-gradient(268.49deg,rgba(255,255,255,0.2) 14.91%,rgba(255,255,255,0.3) 91.32%);
+	border-radius: 15px 0 0px 15px;
+	float: left;
+	padding: 15px;
+	width: 215px;
+}
+
+.postprofile-avatar img {
+	border: none;
+	border-radius: 15px 15px 0 0;
+	box-shadow: none;
+	height: 320px;
+	width: 200px;
+}
+
+.postprofile-contact {
+	align-items: center;
+	background-color: white;
+	border-radius: 0 0 15px 15px;
+	bottom: 6px;
+	display: flex;
+	font-size: 16px;
+	height: 36px;
+	justify-content: space-evenly;
+	position: relative;
+	width: 200px;
+}
+
+.profile-icon {
+	font-family: FontAwesome;
+}
+
+.profile-icon[title="Voir le profil de l'utilisateur"]::after {
+	content: "\f055";
+}
+
+.profile-icon[title="Envoyer un message privé"]::after {
+	content: "\f56b";
+}
+
+.postprofile-contact a {
+	margin-right: 0;
+	margin-top: 0;
+}
+
+.postprofile-contact img {
+	display: none;
+}
+
+.postprofile a[title="Visiter le site web de l'utilisateur"] {
+	height: 18px;
+	position: absolute;
+	top: 10px;
+	width: 18px;
+}
+
+.postprofile .link:hover, 
+.postprofile .subjects:hover, 
+.postprofile .messages:hover {
+	color: var(--doggos);
+}
+
+.postprofile .link:empty {
+	display: none;
+}
+
+.postprofile-name {
+	align-items: center;
+	background-color: #FFF;
+	border-radius: 15px;
+	display: flex;
+	height: 60px;
+	margin-top: 10px;
+	width: 200px;
+	word-break: break-word;
+}
+
+.postprofile-name a {
+	color: #000;
+	flex-grow: 4;
+	font-size: 20px;
+	margin-left: 60px;
+	padding: 15px;
+	text-transform: lowercase;
+}
+
+.postprofile-name::before {
+	align-items: center;
+	background-color: #444;
+	border-radius: 15px 0 0 15px;
+	color: white;
+	content: '';
+	display: flex;
+	font-family: FontAwesome;
+	font-size: 30px;
+	height: 60px;
+	justify-content: center;
+	left: 15px;
+	position: absolute;
+	width: 60px;
+}
+
+.post-overall {
+	background: linear-gradient(100deg,rgba(255,255,255,0.2) 14.91%,rgba(255,255,255,0.3) 91.32%);
+	border-radius: 0 15px 15px 15px;
+	float: left;
+}
+
+.post-head {
+	align-items: center;
+	background: none;
+	border: none;
+	display: flex;
+	height: 48px;
+	padding: 18px 18px 0 18px;
+}
+
+.post-head .message-icons li:first-of-type {
+	color: #444;
+	justify-content: flex-start;
+	letter-spacing: -6px;
+	margin: 0;
+	pointer-events: cursor;
+}
+
+.post-head .message-icons li {
+	align-items: center;
+	background-color: #FFF;
+	border-radius: 10px;
+	display: flex;
+	float: left;
+	height: 30px;
+	justify-content: center;
+	margin: 0 0 0 6px;
+	pointer-events: cursor;
+	width: 30px;
+}
+
+.post-head .message-icons a:hover, 
+.post-head .message-icons a.selected, 
+.post-head .message-icons span:hover, 
+.post-head .message-icons span.selected {
+	background-color: transparent!important;
+	box-shadow: none;
+	color: #DF6883;
+}
+
+.post-head .btn-delete a:hover, 
+.post-head .btn-ip a:hover {
+	background-color: none;
+}
+
+
+.post-head .topic-date {
+	flex-grow: 1;
+	font-size: 12px;
+	text-align: right;
+}
+
+.postbody {
+	float: left;
+	margin: 0px;
+	min-height: 414px;
+	width: 555px;
+}
+
+.postbody .content {
+	background-color: #fff;
+	border-radius: 15px;
+	padding: 15px;
+}
+
+.topic-actions.bottom {
+	background: linear-gradient(90.8deg,rgba(255,255,255,0.2) -94.25%,rgba(255,255,255,0.1) 100%);
+	border-radius: 0 0 15px 15px;
+	height: 50px;
+	padding: 10px;
+}
+
+.topic-actions.bottom .topic-actions-buttons > a, 
+.topic-actions.bottom .topic-actions-buttons > span {
+	margin: 0;
+}
+
+.topic-actions.bottom .topic-actions-buttons {
+	margin: 0;
+}
+
+.topic-actions.bottom .topic-actions-buttons a:first-of-type {
+	background-color: #fff;
+	border-radius: 15px;
+	color: #000;
+	display: inline-flex;
+	flex-direction: column;
+	font-size: 12px;
+	height: 30px;
+	justify-content: center;
+	margin-right: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 260px;
+}
+
+.doggos .postprofile-contact .profile-icon::after, 
+.doggos .postprofile-contact .link, 
+.doggos .postprofile-contact .subjects i::before, 
+.doggos .postprofile-contact .messages i::before {
+	color: var(--doggos);
+}
+
+.post.doggos .profile-icon::after {
+	color: var(--doggos);
+}
+
+.fishies .postprofile-contact .profile-icon::after, 
+.fishies .postprofile-contact .link, 
+.fishies .postprofile-contact .subjects i::before, 
+.fishies .postprofile-contact .messages i::before {
+	color: var(--fishies);
+}
+
+.post.fishies .profile-icon::after {
+	color: var(--fishies);
+}
+
+.birbs .postprofile-contact .profile-icon::after, 
+.birbs .postprofile-contact .link, 
+.birbs .postprofile-contact .subjects i::before, 
+.birbs .postprofile-contact .messages i::before {
+	color: var(--birbs);
+}
+
+.post.birbs .profile-icon::after {
+	color: var(--birbs);
+}
+
+.npcs .postprofile-contact .profile-icon::after, 
+.npcs .postprofile-contact .link, 
+.npcs .postprofile-contact .subjects i::before, 
+.npcs .postprofile-contact .messages i::before {
+	color: var(--npcs);
+}
+
+.post.npcs .profile-icon::after {
+	color: var(--npcs);
+}
+
+.doggos .postprofile-name::before {
+	background: var(--doggos);
+	content: '\f6d3';
+}
+
+.fishies .postprofile-name::before {
+	background: var(--fishies);
+	content: '\e4f2';
+}
+
+.birbs .postprofile-name::before {
+	background: var(--birbs);
+	content: '\f520';
+}
+
+.npcs .postprofile-name::before {
+	background: var(--npcs);
+	content: '\f4ba';
+}
 
 /* Homepage - View online
 ========================================================================== */
