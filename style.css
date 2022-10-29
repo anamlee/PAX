@@ -818,14 +818,6 @@ dd.lastpost span.color-groups {
 	display: none;
 }
 
-#viewforum .sub-header-path {
-	margin: 0px;
-}
-
-#viewforum .sub-header-buttons {
-	padding: 0 10px;
-}
-
 #viewforum .topic-actions.bottom {
 	padding: 10px;
 }
