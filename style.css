@@ -1441,6 +1441,81 @@ fieldset.polls dd input {
 	content: '\f4ba';
 }
 
+
+
+/* Subject View - Quick Reply
+========================================================================== */
+
+#quickreply-container {
+	background: radial-gradient(circle at 50% 80%,rgba(0,255,235,0.6) 10%,rgba(7,58,187,0) 80%),
+ 		linear-gradient(130.77deg,#E05D84 7.39%,#F9DB51 96.79%);
+	border-radius: 15px;
+	box-shadow: 0 4px 4px rgba(0 0 0 / 25%);
+}
+
+#quickreply-container .sub-header {
+	padding: 10px;
+}
+
+#quickreply-container .h3 {
+	background-color: #FFF;
+	border: none;
+	border-radius: 15px;
+	color: black;
+	font-size: 14px;
+	letter-spacing: 0px;
+	line-height: 16px;
+	margin-bottom: 0;
+	padding: 7px;
+	text-transform: lowercase;
+	width: 139px;
+}
+
+#quickreply-container .h3 i {
+	color: #DF6883;
+	margin-right: 5px;
+}
+
+.quickreply-form {
+	padding: 15px;
+}
+
+.sceditor-container iframe,
+.sceditor-container textarea {
+	background: #fff!important;
+	width: 100%!important;
+}
+
+.sceditor-container.ltr.sourceMode {
+	background: linear-gradient(90.8deg,rgba(255,255,255,0.42) 6.75%,rgba(255,255,255,0.18) 96.25%)!important;
+	padding: 15px;
+}
+
+#quickreply-container .button2:hover {
+	background-color: white;
+	box-shadow: none;
+}
+
+#quickreply-container .button2 {
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: none;
+	color: black;
+	font-weight: normal;
+	overflow: hidden;
+	text-transform: lowercase;
+}
+
+#quick_reply #textarea_content {
+	border-radius: 15px;
+	box-shadow: none!important;
+}
+
+#quickreply-container .sceditor-grip {
+	bottom: 2px;
+	right: 2px;
+}
+
 /* Homepage - View online
 ========================================================================== */
 
