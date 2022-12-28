@@ -76,6 +76,7 @@
   text-align: right;
   color: #DF6883 !important;
   text-decoration: none !important;
+  padding-right: 30px;
 }
 
 .cate_gauche > div {
@@ -83,8 +84,6 @@
     flex-direction: row-reverse;
     text-align: justify;
     height: 80px;
-    padding-right: 8px;
-    margin-right: 95px;
     z-index: 0 !important;
     position: relative;
 }
@@ -96,12 +95,7 @@
 }
 
 .cate_gauche img {
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
-    float: right !important;
-    position: absolute;
-    left: 450px;
+    display: none;
 }
 
 .cate_droite{
