@@ -304,7 +304,7 @@ nav {
     word-break: break-word;
     height: 30px;
     padding: 14px;
-	height: 42px;
+	min-height: 42px;
     z-index: 999;
 }
 
