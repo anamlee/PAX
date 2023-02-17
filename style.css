@@ -303,8 +303,7 @@ nav {
     text-align: center;
     word-break: break-word;
     height: 30px;
-    padding: 14px;
-	min-height: 42px;
+    padding: 20px;
     z-index: 999;
 }
 
