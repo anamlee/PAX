@@ -294,8 +294,8 @@ nav {
     background-color: #F1F1F1;
     position: absolute;
     border-radius: 15px;
-    font-size: 12px;
-    line-height: 1em;
+    font-size: 13px !important;
+    line-height: 20px !important;
     display: flex;
     justify-content: center;
     align-items: center;
