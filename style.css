@@ -1532,7 +1532,7 @@ fieldset.polls dd input {
 	align-items: center;
 	border-radius: 15px;
 	display: flex;
-	font-family: var(--main-cursive);
+	font-family: var(--main-serif);
 	font-size: 20px;
 	height: 45px;
 	justify-content: center;
