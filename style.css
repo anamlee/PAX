@@ -1236,15 +1236,6 @@ fieldset.polls dd input {
 	word-break: break-word;
 }
 
-.postprofile-name a {
-	color: #000;
-	flex-grow: 4;
-	font-size: 20px;
-	margin-left: 60px;
-	padding: 15px;
-	text-transform: lowercase;
-}
-
 .postprofile-name::before {
 	align-items: center;
 	background-color: #444;
